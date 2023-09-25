@@ -1,0 +1,108 @@
+/* CardList.css */
+
+/* Style for the card list container */
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+/* Style for individual card containers */
+.card-container {
+    border: 2px solid #007bff; /* Update border style */
+    border-radius: 8px; /* Increase border radius for rounded corners */
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Update box-shadow */
+    transition: transform 0.2s; /* Add a smooth transform transition */
+}
+ 
+/* Hover effect for card containers */
+.card-container:hover {
+    transform: translateY(-5px); /* Lift the card slightly on hover */
+}
+
+/* Style for the "Add Card" button */
+button {
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px; /* Increase padding for better clickability */
+    cursor: pointer;
+}
+
+/* Style for card content */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Style for card header */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for card body */
+.card-body {
+    margin-top: 10px;
+}
+
+/* Style for the task input container */
+.input-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+/* Style for the task input field */
+input[type='text'] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+/* Style for the "Add Task" button */
+button.addTask {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px; /* Increase padding for better clickability */
+    cursor: pointer;
+}
+
+/* Style for the task list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for individual task items */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 8px; /* Increase padding for better spacing */
+}
+
+/* Style for the "Delete Task" button */
+button.delete-task {
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px; /* Adjust padding for better appearance */
+    cursor: pointer;
+}

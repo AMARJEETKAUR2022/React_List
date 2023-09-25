@@ -1,0 +1,113 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Background color for the entire app */
+  padding: 20px; /* Add some padding for better spacing */
+}
+
+h1 {
+  color: #333;
+}
+
+/* CardList.css */
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  gap: 30px; /* Add a gap between card containers */
+}
+
+.card-container {
+  border: 2px solid #007bff; /* Update border style */
+  border-radius: 8px; /* Increase border radius for rounded corners */
+  margin: 10px;
+  padding: 10px;
+  /* width: 300px; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Update box-shadow */
+  transition: transform 0.2s; /* Add a smooth transform transition */
+  background-color: #fff; /* Set card background color */
+}
+
+/* Hover effect for card containers */
+.card-container:hover {
+  transform: translateY(-5px); /* Lift the card slightly on hover */
+}
+
+button {
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px; /* Increase padding for better clickability */
+  cursor: pointer;
+}
+
+/* Style for card content */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body {
+  margin-top: 10px;
+}
+.card-list{
+  padding: 20px;
+}
+.input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+input[type='text'] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+button.addTask {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px; /* Increase padding for better clickability */
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 8px; /* Increase padding for better spacing */
+}
+
+button.delete-task {
+  background-color: #ff3333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 8px; /* Adjust padding for better appearance */
+  cursor: pointer;
+}
